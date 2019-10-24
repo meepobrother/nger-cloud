@@ -1,0 +1,6 @@
+{
+	"name": "@nger-cloud/webpack.bin",
+	"scripts": {
+		"nger-cloud": "src/index.js"
+	}
+}

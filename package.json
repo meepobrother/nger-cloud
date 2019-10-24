@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "start": "lite-server",
+    "start:pm2": "pm2 start --name=lyl npm -- run start",
+    "log": "pm2 log lyl",
+    "kill": "pm2 kill"
+  },
+  "devDependencies": {
+    "lerna": "^3.13.1",
+    "mocha": "^6.2.2",
+    "ts-node": "^8.4.1",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.6.4"
+  }
+}
