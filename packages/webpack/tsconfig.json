@@ -48,6 +48,9 @@
             "@nger-cloud/webpack.domain": [
                 "lib/domain/src/index.ts"
             ],
+            "@nger-cloud/webpack.core": [
+                "lib/core/src/index.ts"
+            ],
             "@nger-cloud/webpack.bin": [
                 "lib/bin/src/index.ts"
             ]
