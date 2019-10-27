@@ -3,17 +3,13 @@ import { NestFactory } from '@nestjs/core';
 import { ApiModule } from '@nger-cloud/webpack.api';
 export async function bootstrap() {
     console.log(`app before created`)
-    return NestFactory.create(ApiModule)
-        .then(app => {
-            console.log(`create`)
-            return app.init();
-        }).catch(e => {
-            console.log(e.message)
-            throw e;
-        });
+    const app = await NestFactory.create(ApiModule)
+    await app.init();
+    console.log(`app after created`)
 }
 bootstrap().then(res => {
     console.log(res)
 }).catch(e => {
     console.log(e.message)
 });
+
