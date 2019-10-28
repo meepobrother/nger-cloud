@@ -1,5 +1,12 @@
 {
 	"name": "@nger-cloud/webpack.basic",
+	"version": "0.0.1",
+	"private": false,
+	"publishConfig": {
+		"access": "public"
+	},
+	"main": "src/index.ts",
+	"types": "src/index.d.ts",
 	"dependencies": {
 		"@nger-cloud/webpack.core": "*",
 		"webpack": "*",

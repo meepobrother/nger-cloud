@@ -1,3 +1,11 @@
 {
-    "name": "@nger-cloud/webpack.core"
+	"name": "@nger-cloud/webpack.core",
+    "version": "0.0.1",
+    "private": false,
+    "publishConfig": {
+		"access": "public"
+    },
+    "main": "src/index.ts",
+	"types": "src/index.d.ts",
+	"dependencies": {}
 }

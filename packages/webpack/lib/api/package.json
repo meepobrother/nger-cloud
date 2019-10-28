@@ -1,5 +1,12 @@
 {
 	"name": "@nger-cloud/webpack.api",
+	"version": "0.0.1",
+	"private": false,
+	"main": "src/index.ts",
+	"types": "src/index.d.ts",
+	"publishConfig": {
+		"access": "public"
+	},
 	"dependencies": {
 		"@nger-cloud/webpack.domain": "*"
 	}
