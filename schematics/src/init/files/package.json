@@ -1,0 +1,14 @@
+{
+	"name": "<%= dasherize(name) %>",
+	"version": "0.0.0",
+	"description": "A schematics",
+	"scripts": {
+		"build": "nger-build",
+		"build:watch": "nger-build -w"
+	},
+	"keywords": [ "schematics" ],
+	"author": "<%= author %>",
+	"license": "MIT",
+	"dependencies": {},
+	"devDependencies": {}
+}
